@@ -1,88 +1,103 @@
-# To-do App
 
-This project is a practice application focusing on state management using Cubit, integrating Firebase Firestore for data management, and implementing the MVVM architecture. The main functionalities include adding, retrieving, and deleting tasks, with additional practice on animations using Hero widgets.
+# ToDo App Using Cubit
 
-Table of Contents
+ToDo App Using Cubit is a Flutter application designed to manage daily tasks using the Cubit state management. This project demonstrates the use of Cubit for state management and Firestore for data storage and retrieval. Note that this project focuses on practicing Cubit rather than UI design.
 
-Introduction
-Features
-Technologies Used
-Installation
-Usage
-Project Structure
-Contributing
-License
+## Table of Contents
 
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Introduction
-In this project, the primary focus was on learning and practicing:
+## Introduction
 
-Cubit state management.
-Firebase Firestore integration for CRUD operations.
-MVVM architecture implementation.
-Hero widget animations.
+The ToDo App Using Cubit is created to provide a simple and efficient way to manage daily tasks. The primary focus of this project was to practice and implement:
+- Cubit for state management.
+- Firestore for data storage and retrieval.
+- Basic CRUD operations (Create, Read, Update, Delete).
 
+## Features
 
-The application's UI is minimal, with the emphasis being on understanding and implementing state management and data handling techniques.
+- Add, delete, and manage tasks.
+- Use Cubit for state management.
+- Store tasks in Firestore.
 
-Features
+## Technologies Used
 
-Add tasks to Firestore.
-Retrieve tasks from Firestore.
-Delete tasks from Firestore.
-Basic animations using Hero widgets.
+- **Flutter**: The core framework for developing the app.
+- **Cubit**: Used for state management.
+- **Firestore**: Used for data storage and retrieval.
 
-
-Technologies Used
-Flutter
-Cubit (State Management)
-Firebase Firestore
-MVVM Architecture
-
-
-Installation
-
+## Installation
 
 To get started with this project, follow these steps:
 
-1. Clone the repository:
-git clone https://github.com/AhmedNasserZakii/ToDo-App-Using-Cubit.git
-2. Navigate to the project directory:
-cd task3
-3. Install dependencies:
-flutter pub get
-4. Set up Firebase:
-Follow the instructions to set up Firebase for your Flutter project: Firebase Setup
-Update the google-services.json file for Android and GoogleService-Info.plist for iOS in the respective directories.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AhmedNasserZakii/ToDo-App-Using-Cubit.git
+   ```
 
-Usage
-Run the application:
-Flutter Run
-Adding a Task:
-Use the UI to add a new task to the Firestore database.
-Retrieving Tasks:
-View the list of tasks retrieved from Firestore.
-Deleting a Task:
-Use the UI to delete a task from the Firestore database.
+2. **Navigate to the project directory:**
+   ```bash
+   cd ToDo-App-Using-Cubit
+   ```
 
-Project Structure
-The project follows the MVVM architecture pattern:
+3. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+
+## Usage
+
+1. **Run the application:**
+   ```bash
+   flutter run
+   ```
+
+2. **Manage Tasks:**
+   - Add new tasks.
+   - Delete existing tasks.
+   - View tasks stored in Firestore.
+
+## Project Structure
+
+The project structure follows a modular approach, making it easier to manage and scale:
+
+```css
 lib/
-├── core/
-│   └── utils/
-├── data/
-│   ├── models/
-│   └── repositories/
-├── ui/
-│   ├── screens/
-│   └── widgets/
 ├── cubit/
-│   ├── add_task_cubit/
-│   └── get_tasks_cubit/
+├── models/
+├── screens/
+├── widgets/
 ├── main.dart
+```
+- **cubit/**: Contains Cubit-related files.
+- **models/**: Contains data models.
+- **screens/**: Contains the UI screens.
+- **widgets/**: Contains reusable widgets.
 
-Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+## Contributing
 
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
+1. **Fork the Project**
+2. **Create your Feature Branch (`git checkout -b feature/AmazingFeature`)**
+3. **Commit your Changes (`git commit -m 'Add some AmazingFeature'`)**
+4. **Push to the Branch (`git push origin feature/AmazingFeature`)**
+5. **Open a Pull Request**
 
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Ahmed Nasser Zakii - ahmednasserzakii@outlook.com - [LinkedIn](https://linkedin.com/in/ahmednasserzakii)
+
+Project Link: [https://github.com/AhmedNasserZakii/ToDo-App-Using-Cubit](https://github.com/AhmedNasserZakii/ToDo-App-Using-Cubit)
